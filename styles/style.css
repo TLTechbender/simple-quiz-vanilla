@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.font-nunito {
+  font-family: Nunito;
+}
+
+.font-bolder {
+  font-weight: 700;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.leading-50px {
+  line-height: 50px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: #8F8E8E;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bg-main-blue {
+  background: #062A4E;
+}
+
+.bg-white {
+  background: white;
+}
+
+.bg-whitish {
+  background: #F3F4FB;
+}
+
+.bg-correct {
+  background: green;
+}
+
+.bg-wrong {
+  background: red;
+}
+
+.bg-selected {
+  background: lightgreen !important;
+}
+
+.bg-pinkish {
+  background: #FB7070;
+}
+
+.bg-purplish {
+  background: #495FDE;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
+.gap-15px {
+  gap: 15px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.text-normal {
+  font-size: 1rem;
+}
+
+.text-sm {
+  font-size: 0.7rem;
+}
+
+.content-wrapper {
+  height: 450px;
+  width: 90%;
+  max-width: 850px;
+  margin-top: 3rem;
+}
+
+.content-container {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.big-text-container {
+  padding-inline: 14px;
+  padding-block: 8px;
+  background: linear-gradient(180deg, #1D6FA2 0%, #0E4567 100%);
+}
+
+.big-text-container, .interactive-text-container {
+  flex-basis: 50%;
+}
+
+.interactive-text-container {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 680px) {
+  .content-wrapper {
+    height: 400px;
+  }
+  .content-container {
+    flex-direction: row;
+  }
+}
+.my-20px {
+  margin-block: 20px;
+}
+
+.answer-menu-item {
+  padding-inline: 20px;
+  padding-block: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.basis-80 {
+  flex-basis: 80%;
+}
+
+.basis-20 {
+  flex-basis: 20%;
+}
+
+.border-none {
+  border: 0;
+}
+
+.action-btns {
+  padding-block-end: 16px;
+  margin-top: 1rem;
+}
+
+.action-btns button {
+  border-radius: 10px;
+  padding-inline: 16px;
+  padding-block: 8px;
+}
+
+.start-btn {
+  border-radius: 10px;
+  padding-inline: 36px;
+  padding-block: 24px;
+}
+
+.welcome-item {
+  line-height: 40px;
+}
+
+.welcome-item::before {
+  content: "-";
+  margin-right: 2px;
+}
+
+.inactive {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0;
+}
+
+.result-text {
+  font-size: 2rem;
+}
+
+strong {
+  color: green;
+  font-weight: 700;
+  font-size: 3rem;
+  animation-name: bounce-result;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes bounce-result {
+  0% {
+    font-size: 4rem;
+  }
+  20% {
+    top: 30px;
+  }
+  40% {
+    bottom: 60px;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    left: 20px;
+  }
+  100% {
+    right: 20px;
+  }
+}
+.flashing {
+  font-size: 20px !important;
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+  25% {
+    color: red;
+  }
+  25% {
+    transform: scale(1.5);
+  }
+  50% {
+    color: white;
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    color: red;
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.text-orange {
+  color: orange;
+}
+
+.hide {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+button {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
