@@ -217,6 +217,15 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 0;
+  padding: 16px;
+}
+.modal span {
+  margin-block-start: 12px;
+}
+.modal button {
+  border-radius: 10px;
+  padding-inline: 16px;
+  padding-block: 8px;
 }
 
 .result-text {

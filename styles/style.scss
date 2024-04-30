@@ -244,6 +244,19 @@ margin-block: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 0;
+  padding: 16px;
+
+
+  span{
+    margin-block-start: 12px;
+  }
+
+
+  button{
+    border-radius: 10px;
+    padding-inline: 16px;
+    padding-block: 8px; 
+  }
 
 }
 

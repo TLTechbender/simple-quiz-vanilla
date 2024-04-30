@@ -293,7 +293,7 @@ dialog.close();
   const btnRowThree = actionBtns.querySelector('.action-btns-row-three');
   const showWorkingBtn = btnRowThree.querySelector('.showWorking');
   showWorkingBtn.classList.add('hide');
-  showWork(showCounter,btnRowTwo);
+  showWork(showCounter,btnRowTwo); // Render the first one
  }
 
 }
