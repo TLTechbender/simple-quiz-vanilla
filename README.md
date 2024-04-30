@@ -14,7 +14,7 @@ After doing a few GES exams (As per UI student wey I be), I was curious to build
 ## Design inspiration
 I saw the design on Behance and I loved it, big shout out to the designer [Kachino](https://kachino234.github.io/quizie/)
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -35,9 +35,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 - run npm install to install all the dependencies
 -- run npm run dev to get going
 
-## Image
+##
 
-![Demo Naani](public/quizzie image.png)
+![Demo Naani](/public/quizzie image.png)
 
 
 ## Acknowledgements
