@@ -35,9 +35,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 - run npm install to install all the dependencies
 -- run npm run dev to get going
 
-##
+## Sample
 
-![Demo Naani](/public/quizzie image.png)
+![Demo Naani](./public/quizzie%20image.png)
 
 
 ## Acknowledgements
